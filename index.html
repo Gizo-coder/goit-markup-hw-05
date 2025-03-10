@@ -313,19 +313,6 @@
            <p class="parag_two">Increase the flow of customers and sales for your business with digital marketing & growth
             solutions.</p>
           </div>
-          <div class="container_three">
-            <p>Subscribe</p>
-            <form class="form">
-              <label class="label">
-                <input type="email" placeholder="E-posta" class="input">       
-              </label>
-              <button class="button_two" type="submit">Subscribe
-                <svg class="button_svg" width="24" height="24">
-                  <use href="./images/sprite_send.svg#icon-send"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
           <div>
             <p class="footer_sm">Social media</p>
             <ul class="footer_list">
@@ -361,5 +348,55 @@
           </div>
         </div>
     </footer>
+
+    <div class="modal">
+      <div class="ovevrlay"></div>
+      <form class="modal-form">
+        <div class="close">
+          <span>x</span>
+        </div>
+        <h3 class="modal-title">Leave your contacts and we will call you back</h3>
+        <div class="input-group">
+          <label for="username">Name</label>
+          <div class="input-container">
+            <svg class="icon">
+              <use href="./images/icon_two.svg#icon-person"></use>
+            </svg>
+            <input type="text" name="username" class="username" id="username"/>
+           </div>
+        </div>
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <div class="input-container">
+            <svg class="icon">
+              <use href="./images/icon_two.svg#icon-phone"></use>
+            </svg>
+            <input type="text" name="phone" class="phone" id="phone" />
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <div class="input-container">
+            <svg class="icon">
+              <use href="./images/icon_two.svg#icon-email"></use>
+            </svg>
+            <input type="text" placeholder="E-mail" name="phone" class="phone" id="phone" />
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="comment">Comment</label>
+          <textarea name="comment" id="comment" class="comment" placeholder="Text Input"></textarea>
+
+        </div>
+        <div class="input-group">
+          <input type="checkbox" name="checkbox" id="consent" class="consent"/>
+          <label for="consent">I accept the terms and conditions of the <a href="">Privacy Policy</a>
+          </label>
+        </div>
+        <div class="button-container">
+          <button type="submit" name="send" class="send">Send</button>          
+        </div>
+      </form>
+    </div>
 </body>
 </html>
