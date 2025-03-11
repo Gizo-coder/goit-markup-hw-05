@@ -16,6 +16,50 @@ header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+.modal_p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 16px;
+    
+
+}
+.button_three:hover .modal-svg {
+    fill: #ffffff;
+}
+.button_three:focus .modal-svg {
+    fill: #ffffff;
+}
+.modal-svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button_three {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button_three:hover {
+    background-color: #404bbf;
+    border: none;
+}
+.button_three:focus {
+    background-color: #404bbf;
+    border: none;
+}
 .input {
     width: 264px;
     height: 40px;
@@ -58,6 +102,7 @@ header {
     bottom: 0;
     background-color: #2e2f42;
     opacity: 0.4;
+    padding: 72px 24px 24px 24px;
 }
 .modal-window .modal-form {
     position: relative;
