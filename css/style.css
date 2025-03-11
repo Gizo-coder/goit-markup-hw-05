@@ -61,11 +61,7 @@ header {
 .check-group {
     margin-bottom: 24px;
 }
-input[type="checkbox"]:checked + .label-span {
-    background-color: #404bbf;
-    border: none;
-    fill: #f4f4fd;
-}
+
 .visually-hidden:checked ~ .label-span {
     background-color: #404bbf;
     border: none;
