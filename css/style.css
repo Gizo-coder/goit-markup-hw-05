@@ -66,7 +66,7 @@ input[type="checkbox"]:checked + .label-span {
     border: none;
     fill: #f4f4fd;
 }
-.visually-hidden:checked .label-span {
+.visually-hidden:checked ~ .label-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
@@ -97,7 +97,7 @@ input[type="checkbox"]:checked + .label-span {
 .input-container {
     position: relative;
 }
-.user-name:focus .icon_svg {
+.user-name:focus ~ .icon_svg {
     fill: #4d5ae5;
 }
 .icon_svg {
